@@ -25,9 +25,9 @@ function App() {
     setGiphy(responseData)
   }
 
-  useEffect(() => {
-    getGiphy()
-  }, [])
+  // useEffect(() => {
+  //   getGiphy()
+  // }, [])
 
   return (
     <div className='App'>
